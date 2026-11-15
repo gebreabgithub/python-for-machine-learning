@@ -1,0 +1,15 @@
+Matplotlib is building the font cache; this may take a moment.
+Linear comparisons complete
+Kernel selection: poly {'poly': {'cv_accuracy': np.float64(1.0), 'params': {'svc__C': 0.1, 'svc__gamma': 0.5}, 'support_vectors': 205, 'train': {'accuracy': 1.0, 'f1': 1.0, 'auc': 1.0, 'confusion': [[1400, 0], [0, 1400]]}, 'test': {'accuracy': 1.0, 'f1': 1.0, 'auc': 1.0, 'confusion': [[600, 0], [0, 600]]}}, 'rbf': {'cv_accuracy': np.float64(1.0), 'params': {'svc__C': 0.1, 'svc__gamma': 0.1}, 'support_vectors': 834, 'train': {'accuracy': 1.0, 'f1': 1.0, 'auc': 1.0, 'confusion': [[1400, 0], [0, 1400]]}, 'test': {'accuracy': 1.0, 'f1': 1.0, 'auc': 1.0, 'confusion': [[600, 0], [0, 600]]}}}
+Augmentation complete 0.1 {'mean_accuracy': 0.9983515, 'sd_accuracy': 0.001279652883070295, 'interval': [0.995, 1.0], 'f1': 0.9983507035547465, 'confusion': [[4994172, 3787], [12698, 4989343]]}
+Augmentation complete 0.8 {'mean_accuracy': 0.6712411, 'sd_accuracy': 0.014838773187462989, 'interval': [0.642, 0.7], 'f1': 0.7207612212516065, 'confusion': [[2469507, 2528452], [759137, 4242904]]}
+Label noise complete
+Dimensions complete linear 2
+Dimensions complete linear 5
+Dimensions complete linear 10
+Dimensions complete linear 15
+Dimensions complete circular 2
+Dimensions complete circular 5
+Dimensions complete circular 10
+Dimensions complete circular 15
+All experiments saved to /Users/gebreab_nil/Documents/dating_app/output/hw02_svm/results.json
