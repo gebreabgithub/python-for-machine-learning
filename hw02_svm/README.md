@@ -2,6 +2,20 @@
 
 The report answers all six questions and the bonus question in the supplied PDF.
 
+## Organized Jupyter notebook
+
+Open [HW02_SVM_notebook.ipynb](HW02_SVM_notebook.ipynb) for all six questions and the bonus, organized into method, code, output, and interpretation. The notebook includes embedded figures and numerical tables. Run cells from top to bottom; a full run includes the 20-million-observation augmentation experiment.
+
+Use a Python 3 kernel in JupyterLab or VS Code, or open it in Google Colab. For local setup:
+
+```sh
+python -m pip install -r requirements.txt
+python -m pip install jupyterlab ipykernel
+jupyter lab HW02_SVM_notebook.ipynb
+```
+
+The notebook is self-contained and writes regenerated figures and results into `notebook_outputs/`. Its public copy omits passport IDs. The proposed contributions still require confirmation by both authors.
+
 ## Files
 
 - `HW02_SVM_answers.pdf`: formatted answer; includes both authors' details and the GitHub link; confirm or correct the proposed contribution statement before submission.

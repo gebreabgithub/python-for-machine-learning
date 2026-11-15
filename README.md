@@ -4,6 +4,8 @@ Python experiments and assignments for machine learning.
 
 ## HW02: Support Vector Machines
 
+- [Organized Jupyter notebook: questions, code, figures, and answers](hw02_svm/HW02_SVM_notebook.ipynb)
+- [Open notebook in Google Colab](https://colab.research.google.com/github/gebreabgithub/python-for-machine-learning/blob/main/hw02_svm/HW02_SVM_notebook.ipynb)
 - [Main Python analysis](hw02_svm/analysis.py)
 - [Report generation script](hw02_svm/build_report.py)
 - [PDF answers](hw02_svm/HW02_SVM_answers.pdf)
