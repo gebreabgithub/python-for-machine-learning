@@ -4,7 +4,7 @@ The report answers all six questions and the bonus question in the supplied PDF.
 
 ## Files
 
-- `HW02_SVM_answers.pdf`: formatted answer; add the two authors' names before submission.
+- `HW02_SVM_answers.pdf`: formatted answer; includes both authors' details and the GitHub link; confirm or correct the proposed contribution statement before submission.
 - `HW02_SVM_answers.md`: editable text, tables, and links to figures.
 - `analysis.py`: dataset simulation, model selection, evaluation, and figures.
 - `build_report.py`: builds the PDF and Markdown from the saved results.

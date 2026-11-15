@@ -50,7 +50,10 @@ def std(trials,key): return float(np.std([t[key] for t in trials],ddof=1))
 
 # Page 1
 title('HW2: Support Vector Machines')
-p('Machine Learning &amp; Neural Networks for Neuroscience<br/>Pair assignment | Authors: ____________________ and ____________________')
+p('Machine Learning &amp; Neural Networks for Neuroscience | Pair assignment')
+p('<b>Gebreab Tewelday</b><br/><b>Abraham Alemayehu Gebrelibanos</b>')
+p('Code and results: <link href="https://github.com/gebreabgithub/python-for-machine-learning" color="#2369a0">github.com/gebreabgithub/python-for-machine-learning</link>')
+p('<b>Proposed contribution statement - both authors must confirm before submission.</b><br/>Suggested allocation: Gebreab Tewelday - dataset simulation, perceptron and linear SVM comparison, and kernel comparison (Sections 1-3). Abraham Alemayehu Gebrelibanos - Gaussian augmentation, label noise, higher-dimensional analysis, and the bonus (Sections 4-6 and bonus). Suggested shared responsibilities: checking the results, interpreting the figures, and reviewing the final report. This allocation is a draft, not a verified record of work completed.')
 p('We study how the shape of the data, feature noise, incorrect labels, and extra dimensions affect classification. All numbers below come from the accompanying Python analysis. The main random seed is 42; separate fixed seeds control each experiment.')
 title('1. Dataset simulation')
 p('We generated 4,000 observations per dataset, with 2,000 observations in each class. Each observation has two coordinates, X1 and X2, and a label Y in {0, 1}. We used a stratified 70/30 split: 2,800 training observations and 1,200 test observations. Stratification preserves the equal class proportions.')
@@ -132,7 +135,7 @@ fig('07_bonus','Figure 7. Mean accuracy as the noise multiplier increases. Dashe
 p('The reported crossing is the first sampled point below 70%, not an exact threshold. A finer grid would locate it more precisely. Both curves describe the same Gaussian perturbation mechanism at different scales, so their multiplier thresholds should differ. Their effective-SD brackets are the more meaningful comparison. Increasing the number of replicates alone would not systematically reduce expected accuracy; increasing the noise strength changes the task.')
 p('This is a robustness threshold, not proof of overfitting. At high noise, the class distributions overlap strongly while the original labels stay fixed. Even a suitable clean-data classifier can then perform poorly.')
 p('<b>Reproducibility.</b> Run analysis.py to regenerate all measurements, plots, and results.json, then run build_report.py to regenerate this PDF and the editable Markdown answer. requirements.txt records the installed package versions. No test labels were used for model fitting or kernel selection. The source instructions are the supplied HW2 PDF; no external datasets or references were used.')
-p('<b>Before submission.</b> Add both authors\' names and review the modeling choices, especially the definition of circular overlap, the two noise SDs, and the use of held-out augmentation as a robustness test. The assignment requests the final PDF and the Python scripts.')
+p('<b>Before submission.</b> Confirm or correct the proposed contribution statement and review the modeling choices, especially the definition of circular overlap, the two noise SDs, and the use of held-out augmentation as a robustness test. The assignment requests the final PDF and the Python scripts.')
 
 def footer(canvas, doc):
     canvas.setFont('Helvetica',8)
